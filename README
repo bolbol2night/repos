@@ -1,0 +1,5 @@
+Working on git/CMake/c++/gtest/gmock
+This project is based on tutorial from:
+ - kaizou.org/2014/11/gtest-cmake
+ - kaizou.org/2014/11/typical-cmake-project
+

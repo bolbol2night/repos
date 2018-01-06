@@ -1,0 +1,6 @@
+SET(Main_SRCS main.cpp)
+
+ADD_EXECUTABLE(MyProject ${Main_SRCS})
+
+INSTALL(TARGETS MyProject DESTINATION bin)
+
