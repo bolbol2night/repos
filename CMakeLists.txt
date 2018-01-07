@@ -8,3 +8,7 @@ ADD_SUBDIRECTORY(src)
 ADD_SUBDIRECTORY(utils)
 
 ADD_SUBDIRECTORY(tst)
+
+SET(MY_INSTALL_PREFIX "build/bin" CACHE PATH "Defining a custom install directory")
+SET(CMAKE_INSTALL_PREFIX "${MY_INSTALL_PREFIX}" CACHE INTERNAL "Defining a custom install directory" FORCE)
+
