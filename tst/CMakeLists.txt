@@ -28,4 +28,3 @@ SET_TARGET_PROPERTIES(libgmock PROPERTIES
 INCLUDE_DIRECTORIES("${source_dir}/googletest/include" "${source_dir}/googlemock/include")
 
 ADD_SUBDIRECTORY(src)
-

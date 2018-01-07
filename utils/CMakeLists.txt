@@ -1,0 +1,5 @@
+FILE(GLOB SRCS *.cpp)
+
+ADD_LIBRARY(utils ${SRCS})
+
+ADD_SUBDIRECTORY(tst)
